@@ -18,7 +18,7 @@ img { max-width: 100%; display: block; }
 
 /* PART B: STEP 1 ▸ put your palette and fonts in :root */
 :root {
-    --primary: #4bac3f;
+    --primary: #14532d;
     --accent: rgb(0, 255, 136);
     --dark: rgb(0, 17, 255);
 }
@@ -56,10 +56,9 @@ h3 {
 }
 /* STEP 5 ▸ a gradient on .hero */
 .hero {
-    background: linear-gradient(125deg, var(--primary), var(--dark));
+    background: linear-gradient(270deg, var(--primary), var(--dark));
 }
 /* STEP 6 ▸ text you can read on it */
 .tagline {
-    color: var(--accent);
-    contrast: 4.5;
+    color: #ffffff;
 }
